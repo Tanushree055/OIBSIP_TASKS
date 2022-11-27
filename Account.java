@@ -123,7 +123,7 @@ public class Account
     }
     else if(money > current)
     {
-       System.out.println("Sorry.You have insufficient amount: ");
+       System.out.println("Sorry.You have insufficient amount. ");
        System.out.println("Access denied.");
     }
     return current;
